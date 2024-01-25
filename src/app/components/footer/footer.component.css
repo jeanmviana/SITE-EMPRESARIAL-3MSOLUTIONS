@@ -1,0 +1,37 @@
+/* ESTILO DO RODAPÉ */
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff10;
+}
+
+
+footer img {
+    width: 300px;
+    height: 80px;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #F8FF42;
+}
+
+footer .line-footer p i{
+    color: #F8FF42;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+p {
+    color: white;
+}

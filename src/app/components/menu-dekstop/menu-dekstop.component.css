@@ -1,0 +1,65 @@
+
+
+/* ESTILO DO CABEÇARIO  - MENU DEKSTOP E MOBILE*/
+
+header {
+    padding: 30px 4%;
+
+}
+
+header > .interface {
+        padding: 50px;
+        position: relative;
+        top: -450px;
+        left: 80px;
+        width: 106%;
+        height: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+header > .interface .logo img {
+    width: 80%;
+}
+
+header a {
+    color: #7c7474;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 1020px) {
+
+    /* LOGO DEV */
+
+    header > .interface {
+        display: none;
+    }
+
+    header > .interface .logo img {
+        width: 8%;
+    }
+}
+
+

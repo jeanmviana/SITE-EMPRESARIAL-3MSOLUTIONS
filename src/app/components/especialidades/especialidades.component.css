@@ -1,0 +1,50 @@
+/* ESTILO DAS ESPECIALIDADES */
+
+section.especialidades {
+    padding: 80px 4%;
+}
+
+section.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades-box > p {
+    text-align: justify;
+}
+
+.especialidades-box h3 {
+    text-align: center;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff77;
+} 
+
+
+/* ICONES */
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: #F8FF42;
+    /* margin-left: 100px; */
+   margin-right: 200px;
+   margin-top: 10px;
+   position: relative;
+   left: 35%;
+   right: 100px;
+
+    
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px;
+}
